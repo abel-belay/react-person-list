@@ -1,0 +1,9 @@
+.form {
+  width: 100%;
+  text-align: left;
+}
+
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+}

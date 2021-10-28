@@ -1,0 +1,10 @@
+.card {
+  height: fit-content;
+  width: 400px;
+  padding: 20px;
+  margin: 50px;
+  display: inline;
+  
+  background-color: white;
+  border-radius: 10px;
+}
