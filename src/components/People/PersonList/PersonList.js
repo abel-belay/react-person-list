@@ -3,12 +3,13 @@ import Person from "../Person/Person";
 const PersonList = (props) => {
   const { personList } = props;
 
-  const personComponents = personList.map((person) => <Person {...person} key={person.id} />);
+  const personComponents = personList.map((person) => <li key={person.id}><Person {...person} /></li>);
+  console.log(personComponents);
 
   return (
-    <div>
+    <ul>
       {personComponents}
-    </div>
+    </ul>
   )
 };
 

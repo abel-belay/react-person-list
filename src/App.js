@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./App.module.css";
-import Card from "./components/UI/Card.js";
+import Card from "./components/UI/Card/Card.js";
 import NewPersonForm from "./components/People/NewPersonForm/NewPersonForm";
 import PersonList from "./components/People/PersonList/PersonList";
 
